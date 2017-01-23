@@ -7,4 +7,22 @@
 
 .chevron_down{
   text-align: center;
+  position:relative;
+  top: 70%;
+  font-size: 80px;
+}
+
+.home_title{
+  max-width: 50%;
+  position:relative;
+  top:50%;
+  text-align:center;
+}
+
+.date{
+
+}
+
+.page_title{
+
 }
