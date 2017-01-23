@@ -1,0 +1,640 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anneso&Matt 2017</title>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Josefin+Sans:400,700|Open+Sans:300,400,700|Raleway:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Materialize: Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Materialize : icon library -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#banner">Accueil</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#mymap">Carte</a></li>
+          <li><a href="#logistic">Logement&Transports</a></li>
+          <li><a href="#presents_list">Liste de mariage</a></li>
+          <li><a href="#infos">Nous contacter</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#banner">Accueil</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#mymap">Carte</a></li>
+          <li><a href="#logistic">Logement&Transports</a></li>
+          <li><a href="#presents_list">Liste de mariage</a></li>
+          <li><a href="#infos">Nous contacter</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="banner">
+      <div class="fullscreen-bg">
+        <video loop autoplay poster="images/backgound_videos/Site mariage noir et blanc 2.jpg" class="fullscreen-bg__video">
+          <source src="images/backgound_videos/mariage_noir_blanc.mp4" type="video/mp4">
+          <source src="video/big_buck_bunny.mp4" type="video/mp4">
+          <source src="video/big_buck_bunny.ogv" type="video/ogg">
+        </video>
+      </div>
+      <div class="home_title">
+        <div class="date" > 24-06-2017 </div>
+        <div class="page_title"> Anne-So + Matt</div>
+      </div>
+      <div class="chevron_down"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+      </div>
+    </div>
+
+
+    <div id="agenda" class="wrapper">
+      <div class="container">
+        <div class="title"><h1>LE GRAND <span>JOUR</span></h1></div>
+        <div class="row">
+          <div class="col s12 m6">
+            <h2><i class="fa fa-clock-o" aria-hidden="true"></i>Quand?</h2>
+            <div class="divider"> </div>
+            <div class="section">
+              <h3> Cérémonie</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat, animi rem impedit esse. Nobis pariatur voluptatem architecto, perferendis maxime est qui reiciendis dolorum officiis quaerat, dolor cumque temporibus voluptas?</p>
+            </div>
+            <div class="section">
+              <h3> Réception</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat, animi rem impedit esse. Nobis pariatur voluptatem architecto, perferendis maxime est qui reiciendis dolorum officiis quaerat, dolor cumque temporibus voluptas?</p>
+            </div>
+          </div>
+           <div class="col s12 m6">
+            <h2><i class="fa fa-map-marker" aria-hidden="true"></i>Où?</h2>
+            <div class="divider"></div>
+            <div class="section">
+              <h3> Cérémonie</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat, animi rem impedit esse. Nobis pariatur voluptatem architecto, perferendis maxime est qui reiciendis dolorum officiis quaerat, dolor cumque temporibus voluptas?</p>
+            </div>
+            <div class="section">
+              <h3> Réception</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat fugiat, animi rem impedit esse. Nobis pariatur voluptatem architecto, perferendis maxime est qui reiciendis dolorum officiis quaerat, dolor cumque temporibus voluptas?</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="mymap" class="wrapper">
+      <div class="container">
+        <div class="title"><h1>TROUVER SON <span>CHEMIN</span></h1></div>
+         <!-- Map retro style -->
+        <div id="style-selector-control"  class="map-control">
+          <select id="style-selector" class="selector-control">
+            <option value="default">Default</option>
+            <option value="retro" selected="selected">Retro</option>
+          </select>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <div id="logistic" class="wrapper_logistic">
+      <div class="container">
+        <div class="title"><h1>LA <span>LOGISTIQUE</span></h1></div>
+        <h2>SE LOGER</h2>
+        <h3>Les campings</h3>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3>Les chambres d'hôtes</h3>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+         <h3>Les hotels</h3>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/camping la falaise.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Camping La Falaise<i class="material-icons right">more_vert</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, amet quae sunt praesentium possimus illo fuga accusantium, cumque veniam. Reiciendis laudantium incidunt esse minima suscipit placeat odio, earum tempora nam.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia, iure eaque adipisci molestias magni ratione voluptate iste assumenda accusamus amet officiis quisquam accusantium, sed sit, officia porro facilis provident.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>Taxi?</h2>
+         <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="images/yuna.jpg" alt="" class="circle">
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle">folder</i>
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle green">insert_chart</i>
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle red">play_arrow</i>
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+        </ul>
+        <h2>Babysitter?</h2>
+         <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="images/yuna.jpg" alt="" class="circle">
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle">folder</i>
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle green">insert_chart</i>
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle red">play_arrow</i>
+            <span class="title">Title</span>
+            <p>First Line <br>
+               Second Line
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="presents_list" class="wrapper">
+      <div class="container">
+        <div class="title"><h1>LISTE DE <span>MARIAGE</span></h1></div>
+        <div class="center-align">
+          <p class="valign-wrapper">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quas tempora assumenda, repellendus non similique distinctio quod voluptatibus, corrupti nihil, dicta veritatis ut qui velit amet recusandae, enim culpa perferendis!</p>
+          <a href="https://www.facebook.com/"><i class="fa fa-gift" aria-hidden="true"></i><br>Cliquez ici pour offir</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="infos" class="wrapper">
+      <div class="container">
+        <div class="title"><h1>INFOS & <span>CONTACTS</span></h1>
+        </div>
+        <div class="center-align">
+          <p class="valign-wrapper">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quas tempora assumenda, repellendus non similique distinctio quod voluptatibus, corrupti nihil, dicta veritatis ut qui velit amet recusandae, enim culpa perferendis!</p>
+        </div>
+        <div class="row contacts_cards">
+          <div class="col s12 m4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Les mariés</span>
+              </div>
+              <div class="card-action">
+                <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:annesoetmatt2017@gmail.com">annesoetmatt2017@gmail.com</a>
+              </div>
+              <div class="card-action">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>12 rue Beausoleil, 44000 Nantes
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Anne-Sophie</span>
+              </div>
+              <div class="card-action">
+                 <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0651620615">06.51.62.06.15</a>
+              </div>
+              <div class="card-action">
+                <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:annesophie.doudet09@gmail.com">annesophie.doudet09@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Matthieu</span>
+              </div>
+              <div class="card-action">
+                 <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0603058713">06.03.05.87.13</a>
+              </div>
+              <div class="card-action">
+                <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:matthieu.leberre@gmail.com">matthieu.leberre@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <ul class="list-inline">
+        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      </ul>
+      <p class="right-align">Made by M@tt</p>
+    </div>
+
+    <!-- Import jQuery before materialize.js -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="https://use.fontawesome.com/ea1472dfdb.js"></script>
+    <!-- script for Materialize -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+      // Initialize collapse button
+        $(".button-collapse").sideNav();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        // $('.collapsible').collapsible();$(".button-collapse").sideNav();
+        $('.scrollspy').scrollSpy();
+      });
+    </script>
+    <!-- Google maps script  -->
+    <script type="text/javascript">
+      function initMap() {
+
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 47.330258, lng: -2.416251},
+          scrollwheel: false,
+          zoom: 11,
+          mapTypecontrol: false
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: {lat: 47.362886, lng: -2.504183},
+          title: 'Chateau de Lauvergnac, La Turballe'
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: {lat: 47.277502, lng: -2.480006},
+          title: 'Elise Saint Guénolé, Batz sur Mer'
+        });
+
+        // Add a style-selector control to the map.
+        var styleControl = document.getElementById('style-selector-control');
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
+
+        // Set the map's style to the initial value of the selector.
+        var styleSelector = document.getElementById('style-selector');
+        map.setOptions({styles: styles[styleSelector.value]});
+
+        // Apply new JSON when the user selects a different style.
+        styleSelector.addEventListener('change', function() {
+          map.setOptions({styles: styles[styleSelector.value]});
+        });
+      }
+      var styles = {
+        default: null,
+
+        retro: [
+          {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
+          {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
+          {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+          {
+            featureType: 'administrative',
+            elementType: 'geometry.stroke',
+            stylers: [{color: '#c9b2a6'}]
+          },
+          {
+            featureType: 'administrative.land_parcel',
+            elementType: 'geometry.stroke',
+            stylers: [{color: '#dcd2be'}]
+          },
+          {
+            featureType: 'administrative.land_parcel',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#ae9e90'}]
+          },
+          {
+            featureType: 'landscape.natural',
+            elementType: 'geometry',
+            stylers: [{color: '#dfd2ae'}]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'geometry',
+            stylers: [{color: '#dfd2ae'}]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#93817c'}]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'geometry.fill',
+            stylers: [{color: '#a5b076'}]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#447530'}]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [{color: '#f5f1e6'}]
+          },
+          {
+            featureType: 'road.arterial',
+            elementType: 'geometry',
+            stylers: [{color: '#fdfcf8'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry',
+            stylers: [{color: '#f8c967'}]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry.stroke',
+            stylers: [{color: '#e9bc62'}]
+          },
+          {
+            featureType: 'road.highway.controlled_access',
+            elementType: 'geometry',
+            stylers: [{color: '#e98d58'}]
+          },
+          {
+            featureType: 'road.highway.controlled_access',
+            elementType: 'geometry.stroke',
+            stylers: [{color: '#db8555'}]
+          },
+          {
+            featureType: 'road.local',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#806b63'}]
+          },
+          {
+            featureType: 'transit.line',
+            elementType: 'geometry',
+            stylers: [{color: '#dfd2ae'}]
+          },
+          {
+            featureType: 'transit.line',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#8f7d77'}]
+          },
+          {
+            featureType: 'transit.line',
+            elementType: 'labels.text.stroke',
+            stylers: [{color: '#ebe3cd'}]
+          },
+          {
+            featureType: 'transit.station',
+            elementType: 'geometry',
+            stylers: [{color: '#dfd2ae'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry.fill',
+            stylers: [{color: '#b9d3c2'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.fill',
+            stylers: [{color: '#92998d'}]
+          }
+        ],
+
+      };
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBocdF8KHoI-dsI1s9KL-IDW_xym2jR3mw&callback=initMap"
+        async defer></script>
+  </body>
+</html>

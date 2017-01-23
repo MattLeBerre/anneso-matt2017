@@ -1,0 +1,28 @@
+#footer{
+  background: #333333;
+  color: #CCCCCC;
+  margin:0;
+  height: auto;
+}
+
+#footer p{
+  margin:0 15px 0 15px;
+}
+
+
+#footer .fa{
+  font-size: 40px;
+  color: #CCCCCC;
+}
+
+ul.list-inline li {
+   display: inline;
+   text-align: center;
+   padding: 2px ;
+   }
+
+
+#footer .fa:hover{
+  color: yellow;
+}
+

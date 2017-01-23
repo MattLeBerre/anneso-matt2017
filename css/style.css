@@ -1,0 +1,51 @@
+@import url("components/banner.css");
+@import url("components/map.css");
+@import url("components/fa_icons.css");
+@import url("components/contact_card.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/background_video.css");
+
+
+.wrapper{
+  background-size: cover;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.wrapper_logistic{
+  background-size: cover;
+  padding: 30px;
+}
+
+#mymap{
+  background-color: white;
+}
+
+#agenda{
+  background-image:url("../images/arabesque_blue.png");
+}
+
+#logistic{
+  background-image:url("../images/carbon-fibre Pink.png");
+}
+
+#presents_list{
+  background-color: #ACD1E0;
+}
+
+#infos{
+}
+
+/* Google fonts
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Architects Daughter', cursive;
+ */
+
+/* Wedding  Colors
+Pink = #ED4C4B
+Blue = #16394F
+*/

@@ -1,0 +1,55 @@
+  <div class="row">
+          <div class="col s7 m4">
+            <h2 class="header">Les mariés</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="http://lorempixel.com/100/190/nature/6">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+                <div class="card-action">
+                  <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:annesoetmatt2017@gmail.com">annesoetmatt2017@gmail.com</a>
+                  <p><i class="fa fa-map-marker" aria-hidden="true"></i>12 rue Beausoleil, 44000 Nantes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s7 m4">
+            <h2 class="header">Anne-Sophie</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="http://lorempixel.com/100/190/nature/6">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+                <div class="card-action">
+                  <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0651620615">06.51.62.06.15</a>
+                  <br><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:annesophie.doudet09@gmail.com">annesophie.doudet09@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s7 m4">
+            <h2 class="header">Matthieu</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="http://lorempixel.com/100/190/nature/6">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+                <div class="card-action">
+                  <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:0603058713">06.03.05.87.13</a>
+                  <br><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:matthieu.leberre@gmail.com">matthieu.leberre@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
