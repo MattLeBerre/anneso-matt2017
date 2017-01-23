@@ -1,0 +1,10 @@
+@import url(../modules/general/css_structure.css);
+@import url(../modules/general/css_tags.css);
+@import url(../modules/general/css_general.css);
+@import url(../modules/accueil/css_accueil.css);
+@import url(../modules/cms/css_cms.css);
+@import url(../modules/galerie/css_galerie.css);
+@import url(../modules/liens/css_liens.css);
+@import url(../modules/documents/css_documents.css);
+@import url(../modules/crm/css_crm.css);
+@import url(../modules/fiches/css_fiche.css);

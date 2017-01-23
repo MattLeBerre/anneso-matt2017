@@ -5,6 +5,7 @@
 @import url("components/navbar.css");
 @import url("components/footer.css");
 @import url("components/background_video.css");
+@import url("components/custom_card.css");
 
 
 .wrapper{
@@ -24,10 +25,30 @@
 
 #agenda{
   background-image:url("../images/arabesque_blue.png");
+  color: white;
 }
 
+#agenda span{
+  color:#ED4C4B;
+}
+
+#agenda h2{
+  color:#ED4C4B;
+}
+
+#agenda h2 .fa{
+  color:white;
+}
+
+
+
 #logistic{
-  background-image:url("../images/carbon-fibre Pink.png");
+  background-image:url("../images/corrugation_pink.png");
+  color:white;
+}
+
+#logistic .title span{
+  color: #16394F;
 }
 
 #presents_list{
@@ -37,6 +58,18 @@
 #infos{
 }
 
+.title{
+  font-family: 'Raleway';
+  font-size:6vw;
+  font-weight: bold;
+}
+
+.accomodation_types{
+  font-family:'Architects Daughter', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
 /* Google fonts
 
 font-family: 'Open Sans', sans-serif;

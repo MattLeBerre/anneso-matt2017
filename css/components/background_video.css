@@ -32,9 +32,9 @@
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../images/backgound_videos') center center / cover no-repeat;
+    background: url('../../images/backgound_videos/Site mariage noir et blanc 2.jpg');
+    background-size: cover;
   }
-
   .fullscreen-bg__video {
     display: none;
   }

@@ -1,28 +1,32 @@
 #banner{
   /*background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('../../images/background.jpg');*/
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
 .chevron_down{
   text-align: center;
-  position:relative;
-  top: 70%;
+  position:absolute;
+  bottom: 0%;
   font-size: 80px;
 }
 
 .home_title{
-  max-width: 50%;
-  position:relative;
-  top:50%;
+  padding-top: 30vh;
   text-align:center;
+  display:block;
 }
 
 .date{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 500%;
+
 
 }
 
 .page_title{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 400%;
 
 }
