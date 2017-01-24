@@ -6,6 +6,8 @@
 @import url("components/footer.css");
 @import url("components/background_video.css");
 @import url("components/custom_card.css");
+@import url("components/custom_collection.css");
+@import url("components/customized_form.css");
 
 
 .wrapper{
@@ -55,7 +57,25 @@
   background-color: #ACD1E0;
 }
 
+#presents_list .title{
+  color:white;
+}
+
+#presents_list .title span{
+  color:#16394F;
+}
+
+#presents_list p{
+  color:#16394F;
+  font-size: 20px;
+}
+
+.presents_content{
+  margin-top: 10vh;
+}
+
 #infos{
+  background-image:url("../images/corrugation_pink.png");
 }
 
 .title{
@@ -69,6 +89,14 @@
   font-size: 30px;
   text-align: center;
   padding: 10px;
+}
+
+.taxi{
+  text-align: center;
+}
+
+.babysitting{
+  text-align: center;
 }
 /* Google fonts
 
