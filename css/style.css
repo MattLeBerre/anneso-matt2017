@@ -10,6 +10,12 @@
 @import url("components/customized_form.css");
 
 
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size:20;
+}
+
 .wrapper{
   background-size: cover;
   padding: 40px;
@@ -75,7 +81,12 @@
 }
 
 #infos{
-  background-image:url("../images/corrugation_pink.png");
+  background-image:url("../images/carbon-fibre-1920x1080.png");
+  color:white;
+}
+
+#infos .title span{
+  color: #ED4C4B;
 }
 
 .title{

@@ -2,7 +2,7 @@
   background: #333333;
   color: #CCCCCC;
   margin:0;
-  height: auto;
+  min-height: 50px;
 }
 
 #footer p{
