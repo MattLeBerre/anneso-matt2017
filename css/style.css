@@ -10,12 +10,12 @@
 @import url("components/customized_form.css");
 
 
-p{
+/*p{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size:20;
 }
-
+*/
 .wrapper{
   background-size: cover;
   padding: 40px;
@@ -115,6 +115,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Architects Daughter', cursive;
+font-family: 'Amatic SC', cursive;
  */
 
 /* Wedding  Colors

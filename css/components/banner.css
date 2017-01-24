@@ -16,14 +16,23 @@
   padding-top: 10vh;
   text-align:center;
   display:block;
+  color:#ED4C4B;
 }
 
 .date{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 9vh;
+/*  color:#16394F;*/
 }
 
 .page_title{
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 9vh;
+  color:#ED4C4B;
 }
+
+
+/* Wedding  Colors
+Pink = #ED4C4B
+Blue = #16394F
+*/
