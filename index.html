@@ -36,7 +36,7 @@
 
     <div id="banner">
       <div class="fullscreen-bg">
-        <video loop autoplay poster="images/backgound_videos/Site mariage noir et blanc 2.jpg" class="fullscreen-bg__video">
+        <video loop autoplay poster="images/background_videos/Site mariage noir et blanc 2.jpg" class="fullscreen-bg__video">
         <source src="images/background_videos/mariage_noir_blanc.mp4" type="video/mp4">
         </video>
       </div>
@@ -442,11 +442,11 @@
             </div>
             <div class="row">
               <div class="input-field col s12 m6">
-                <input id="attending" name="attending" type="radio"/>
+                <input id="attending" name="attending" type="checkbox"/>
                 <label for="attending">Je serai présent</label>
               </div>
               <div class="input-field col s12 m6">
-                <input id="not_present" name="attending" type="radio"/>
+                <input id="not_present" name="not_present" type="checkbox"/>
                 <label for="not_present">Je ne pourai pas être là</label>
               </div>
             </div>
@@ -507,6 +507,15 @@
         // $('.collapsible').collapsible();$(".button-collapse").sideNav();
         $('.scrollspy').scrollSpy();
         //make collection items the same height
+      });
+    </script>
+    <!--   script for getting unique checkbox -->
+    <script type="text/javascript">
+      $("#attending").click(function (){
+        $("#not_present").prop('checked', false)
+      });
+      $("#not_present").click(function (){
+        $("#attending").prop('checked', false)
       });
     </script>
     <!-- Google maps script  -->
