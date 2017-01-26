@@ -1,9 +1,11 @@
 .card.small p{
   color:#212121!important ;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
 
 
-.card-title{
+.card-title span{
   font-size:20px!important;
-
 }
